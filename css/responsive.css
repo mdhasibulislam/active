@@ -1,0 +1,139 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    
+   .navbar ul.navbar-nav li.nav-item a.nav-link {
+	text-align: center;
+    background: black;
+}
+    
+    .banner-text h2 {
+	font-size: 50px;
+}
+    
+    .service-img {
+	text-align: center;
+	padding-top: 50px;
+}        
+    
+    
+    
+    .footer-text h2 {
+	font-size: 12px;
+	padding-top: 20px;
+}
+    
+   
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+ .navbar ul.navbar-nav li.nav-item a.nav-link {
+	text-align: center;
+	background: red;
+	color: black;
+}
+    
+ .banner-text h2
+    {
+        font-size: 35px;
+    }
+    
+    .slider-text h2 {
+	font-size: 36px;
+	color: goldenrod;
+    padding-top: 50px;
+}
+    
+    
+    .slider-text h3 {
+	color: goldenrod;
+}
+    
+    .download-text h2 {
+	font-size: 22px;
+}
+    
+    .service-img
+    {
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    
+    .footer-text
+    {
+        padding-top: 25px;
+    }
+    
+    
+    .footer-text h2 {
+	font-size: 12px;
+	padding-top: 20px;
+}
+   
+    
+    
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+   .navbar ul.navbar-nav li.nav-item a.nav-link {
+	text-align: center;
+	background: blue;
+	color: greenyellow;
+}
+    .banner-text h2 {
+	font-size: 20px;
+}
+    .banner-text h3 {
+	font-size: 12px;
+}
+    
+    .service-img
+    {
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    
+    .download-text h2 {
+	font-size: 12px;
+}
+    
+    
+    .slider-text h2 {
+	font-size: 15px;
+	line-height: 15px;
+}
+    .slider-text h3 {
+	font-size: 10px;
+}
+    
+    .footer-text
+    {
+        padding-top: 30px;
+    }
+    
+    .copyright h2 {
+	font-size: 11px;
+}
+    .copyright h3 {
+	font-size: 11px;
+}
+    
+    
+    
+    
+    
+}
