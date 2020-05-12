@@ -13,9 +13,10 @@
     background: black;
 }
     
-    .banner-text h2 {
-	font-size: 50px;
-}
+ .banner-text h2
+    {
+        font-size: 50px;
+    }
     
     .service-img {
 	text-align: center;
